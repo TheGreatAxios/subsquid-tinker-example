@@ -1,0 +1,8 @@
+type Transaction @entity {
+  id: ID!
+  chain: String
+  blockId: Int!
+  from: String
+  to: String
+  input: String
+}
